@@ -19,7 +19,9 @@ let package = Package(
             path: "macOS",
             sources: [
                 "App/HandGestureApp.swift",
-                "UI/ContentView.swift"
+                "UI/ContentView.swift",
+                "Camera/CameraManager.swift",
+                "Camera/CameraPreviewView.swift"
             ]
         )
     ]
